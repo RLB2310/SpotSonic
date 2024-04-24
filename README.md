@@ -1,5 +1,5 @@
 # Linux Spoitfy TUI Front-end which doesn't require premium
-This is a simple Python project which utilizes Spotipy (Spotify Python API) to control, search, and play songs from an existing Spotify client through a simple and clean terminal interface. While there already is applications that do so (Spotify-TUI comes to mind) these usually require Spotify Premium as they are standalone applications. This is not a standalone application and *WILL PLAY ADS* if spotify premium is not subscribed to by the active account. 
+This is a simple Python project which utilizes Spotipy (Spotify Python API) to control, search, and play songs from an existing Spotify client through a simple and clean terminal interface. While there already is applications that do so (Spotify-TUI comes to mind) these usually require Spotify Premium as they are standalone applications. This is not a standalone application and *!!! WILL PLAY ADS !!!!* if spotify premium is not subscribed to by the active account. 
 ![image](https://github.com/RLB2310/SpotSonic/assets/107162850/24bd0667-6ce2-4438-a65e-2b5cb2eda53f)
 
 * Terminal: Alacrity + Opacity Changes, Under Hyprland Arch
