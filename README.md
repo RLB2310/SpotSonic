@@ -8,4 +8,4 @@ The Spotify API requires a dev app to be running (https://developer.spotify.com/
 Recently played artists are simply written to a ".txt" file and updated on search.
 It is suggested to minimize or hide the actual Spotify application unless audio control is needed obviously.
 
-*This is by no means a refined or professional application, just a cool idea, and will most likely break.*
+*This is by no means a refined or professional application, just a cool idea, and will most likely break. This isn't meant to be applied to different setups and hardware, it probably won't work under most circumstances, and I don't plan on changing it. Feel free to make changes by all means.*
