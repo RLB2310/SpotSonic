@@ -36,7 +36,8 @@ class Menu:
             with open("recent.txt", "r") as f:
                 return [line.strip() for line in f.readlines() if line.strip()]
         else:
-            return []
+            recent_dir = "recent.txt"
+            file = open("recent.txt", "a")
 
     def display_recently_played(self, win):
         """Display the list of recently played artists in the specified window."""
@@ -45,11 +46,12 @@ class Menu:
         win.addstr(1, 1, "Recently Played:")
 
         # Display 'Recently Played' artists
-        for idx, artist in enumerate(self.recently_played_artists, 1):
-            if idx - 1 == self.current_artist_pos:
-                win.addstr(1 + idx, 1, f"> {artist}", curses.A_REVERSE)
-            else:
-                win.addstr(1 + idx, 1, artist)
+        if self.recently_played_artists != None:
+            for idx, artist in enumerate(self.recently_played_artists, 1):
+                if idx - 1 == self.current_artist_pos:
+                    win.addstr(1 + idx, 1, f"> {artist}", curses.A_REVERSE)
+                else:
+                    win.addstr(1 + idx, 1, artist)
 
         win.refresh()
 
