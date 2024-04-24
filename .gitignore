@@ -1,6 +1,7 @@
 /.cache
 recent.txt
-.gitignore
+__pycache__
+
 
 
 
