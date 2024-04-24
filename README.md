@@ -7,3 +7,5 @@ This is a simple Python project which utilizes Spotipy (Spotify Python API) to c
 The Spotify API requires a dev app to be running (https://developer.spotify.com/documentation/web-api/concepts/apps) and assumes you set the SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET environment variables. 
 Recently played artists are simply written to a ".txt" file and updated on search.
 It is suggested to minimize or hide the actual Spotify application unless audio control is needed obviously.
+
+*This is by no means a refined or professional application, just a cool idea, and will most likely break.*
