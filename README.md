@@ -16,7 +16,21 @@ Clone/Download files, run the "app.py" with python3.
 Arrow keys to navigate
 
 # Prerequisites
+
 The Spotify API requires a dev app to be running (https://developer.spotify.com/documentation/web-api/concepts/apps) and assumes you set the SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET environment variables. 
+
+Credentials
+
+This package now must use credentials in order to search for songs.
+
+Support for client credentials flow. Please follow these steps:
+
+    Register app: https://developer.spotify.com/my-applications/#!/applications
+    Edit your ~/.bashrc to export following values:
+
+export SPOTIPY_CLIENT_ID='your-spotify-client-id'
+export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
+
 Recently played artists are simply written to a ".txt" file and updated on search.
 It is suggested to minimize or hide the actual Spotify application unless audio control is needed obviously.
 
