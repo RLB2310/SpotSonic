@@ -7,6 +7,11 @@ This is a simple Python project which utilizes Spotipy (Spotify Python API) to c
 # HOW TO RUN
 Clone/Download files, run the "app.py" with python3.
 
+# Controls
+
+"S" to enter search
+"ESC" to exit sub menu
+
 # Prerequisites
 The Spotify API requires a dev app to be running (https://developer.spotify.com/documentation/web-api/concepts/apps) and assumes you set the SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET environment variables. 
 Recently played artists are simply written to a ".txt" file and updated on search.
