@@ -1,5 +1,6 @@
 import dbus
 
+
 class SpotifyController:
     def __init__(self):
         try:
@@ -30,6 +31,10 @@ class SpotifyController:
     def play_track(self, uri):
         self.interface.OpenUri(uri)
         self.get_current_playing()
+    def play_album(self, album_uri):
+        self.interface.OpenUri(album_uri)
+        self.get_current_playing()
+    
 
     def get_current_playing(self):
         metadata = self.properties_interface.Get(
