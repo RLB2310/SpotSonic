@@ -4,8 +4,14 @@ This is a simple Python project which utilizes Spotipy (Spotify Python API) to c
 
 * Terminal: Alacrity + Opacity Changes, Under Hyprland Arch
 
+# HOW TO RUN
+Clone/Download files, run the "app.py" with python3.
+
+# Prerequisites
 The Spotify API requires a dev app to be running (https://developer.spotify.com/documentation/web-api/concepts/apps) and assumes you set the SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET environment variables. 
 Recently played artists are simply written to a ".txt" file and updated on search.
 It is suggested to minimize or hide the actual Spotify application unless audio control is needed obviously.
 
-*This is by no means a refined or professional application, just a cool idea, and will most likely break. This isn't meant to be applied to different setups and hardware, it probably won't work under most circumstances, and I don't plan on changing it. Feel free to make changes by all means.*
+# Disclaimer
+* THIS SOFTWARE DOESN'T ALTER SPOTIFY *
+* This is by no means a refined or professional application, just a cool idea, and will most likely break. This isn't meant to be applied to different setups and hardware, it probably won't work under most circumstances, and I don't plan on changing it. Feel free to make changes by all means. *
