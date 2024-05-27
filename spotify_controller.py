@@ -22,6 +22,9 @@ class SpotifyController:
     def play_pause(self):
         self.interface.PlayPause()
 
+    def pause(self):
+        self.interface.Pause()
+
     def next(self):
         self.interface.Next()
 

@@ -4,7 +4,6 @@ import time
 from spotify_controller import SpotifyController
 from search import Search
 
-
 class Menu:
     def __init__(self):
         self.spotify = SpotifyController()
