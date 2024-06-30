@@ -1,5 +1,10 @@
-# Linux Spotify TUI Front-end which doesn't require premium
+# Linux Spotify TUI Front-end, with forks and features from [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) which doesn't require premium
+
 This is a simple Python project which utilizes Spotipy (Spotify Python API) to control, search, and play songs from an existing Spotify client through a simple and clean terminal interface. While there already is applications that do so (Spotify-TUI comes to mind) these usually require Spotify Premium as they are standalone applications. This is not a standalone application and *!!! WILL PLAY ADS !!!!* if spotify premium is not subscribed to by the active account. 
+
+Majority of the base and features of this front-end is from the Rigellute/spotify-tui. The reason for this creation is to allow the use of a free Spotify account with an alternative front-end.
+
+
 ![image](https://github.com/RLB2310/SpotSonic/assets/107162850/24bd0667-6ce2-4438-a65e-2b5cb2eda53f)
 
 * Terminal: Alacrity + Opacity Changes, Under Hyprland Arch
