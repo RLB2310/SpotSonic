@@ -5,11 +5,9 @@ import logging
 logging.getLogger('spotipy').setLevel(logging.ERROR)
 class Search:
     def __init__(self):
-        cache_dir = '~/.cache'
-        if not os.path.exists(cache_dir):
-            os.makedirs(cache_dir)
-
-        os.chmod(cache_dir, 0o777)
+        #cache_dir = '~/.cache'
+        #if not os.path.exists(cache_dir):
+        #    print("Please make a '.cache file' in the home directory")
         self.spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())        
 
     def search(self, query):
@@ -33,11 +31,14 @@ class Search:
                 })
 
             # Process album results
+
             for album in album_response["albums"]["items"]:
+                
                 results["albums"].append({
                     "name": album["name"],
                     "artists": album["artists"],
                     "uri": album["uri"],
+                    
                 })
 
         except Exception as e:
